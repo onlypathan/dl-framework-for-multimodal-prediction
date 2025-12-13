@@ -1,4 +1,4 @@
-# Gated Multimodal Deep Learning for Restaurant Rating Prediction
+# Gated Multimodal Deep Learning Fusion for Restaurant Rating Prediction
 
 **Author:** Rizwan Ahasan Pathan  
 **Affiliation:** M.S. in Applied Data Science, University of Southern California (USC)  
@@ -116,7 +116,7 @@ Average modality contribution:
 
 - `src/` – Model architecture, modality encoders, gated fusion logic, and training scripts  
   - `raw_image/` – Raw restaurant images from the Yelp Open Dataset (2024), used for CNN-based feature extraction 
-- `data/` – Normalized and scaled datasets stored in a SQLite database   (if you need database email me at onlypathan@gmail.com)
+- `data/` – Normalized and scaled datasets stored in a SQLite database (excluded due to GitHub size limits; access can be provided upon request)
   - `experiments/` – local database used for experiment   
 - `experiments/` – Training runs, ablation studies, and model evaluation artifacts  
 - `Final_Project_Report_By_Rizwan_Ahasan_Pathan.pdf` – Full technical report (Pages 15)  
@@ -183,32 +183,22 @@ to reproduce the corresponding embeddings or prediction models.
 
 ---
 
-
 ## References
 
-- **Yelp Open Dataset (2024)**  
-  https://www.yelp.com/dataset
+- [Yelp Open Dataset (2024)](https://www.yelp.com/dataset)
 
-- **Liu, Z. (2020). Yelp Review Rating Prediction: Machine Learning and Deep Learning Models**  
-  https://arxiv.org/abs/2012.06690
+- [Liu, Z. (2020). *Yelp Review Rating Prediction: Machine Learning and Deep Learning Models*](https://arxiv.org/abs/2012.06690)
 
-- **Zhao, Y. et al. (2024). Multimodal Point-of-Interest Recommendation**  
-  https://arxiv.org/abs/2410.03265
+- [Zhao, Y. et al. (2024). *Multimodal Point-of-Interest Recommendation*](https://arxiv.org/abs/2410.03265)
 
-- **Baltrušaitis, T., Ahuja, C., & Morency, L.-P. (2019). Multimodal Machine Learning: A Survey and Taxonomy**  
-  https://ieeexplore.ieee.org/document/8269806
+- [Baltrušaitis, T., Ahuja, C., & Morency, L.-P. (2019). *Multimodal Machine Learning: A Survey and Taxonomy*](https://ieeexplore.ieee.org/document/8269806)
 
-- **PyTorch Documentation**  
-  https://pytorch.org/docs/stable/index.html
+- [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)
 
-- **Hugging Face Transformers**  
-  https://huggingface.co/docs/transformers/index
+- [Hugging Face Transformers](https://huggingface.co/docs/transformers/index)
 
-- **scikit-learn Documentation**  
-  https://scikit-learn.org/stable/
+- [scikit-learn Documentation](https://scikit-learn.org/stable/)
 
-- **Optuna Hyperparameter Optimization**  
-  https://optuna.org/
+- [Optuna Hyperparameter Optimization](https://optuna.org/)
 
-- **Graph Neural Networks (PyTorch Geometric)**  
-  https://pytorch-geometric.readthedocs.io/en/latest/
+- [Graph Neural Networks (PyTorch Geometric)](https://pytorch-geometric.readthedocs.io/en/latest/)
