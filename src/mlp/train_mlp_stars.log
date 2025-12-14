@@ -1,27 +1,0 @@
-==========================================
-SLURM_JOB_ID = 4704580
-SLURM_JOB_NODELIST = d23-13
-TMPDIR = /tmp/SLURM_4704580
-==========================================
-🚀 Using device: cuda
-✅ Loaded data: 36680 rows, 674 columns
-✅ Total input features selected: 670
-✅ Train size: 29344 | Test size: 7336
-✅ Initialized MLP with 670 input features
-Training Epochs:   0%|          | 0/200 [00:00<?, ?it/s]Training Epochs:   0%|          | 1/200 [00:02<08:02,  2.42s/it]Training Epochs:   3%|▎         | 6/200 [00:02<01:01,  3.17it/s]Training Epochs:   6%|▌         | 12/200 [00:02<00:25,  7.27it/s]Training Epochs:   9%|▉         | 18/200 [00:02<00:15, 12.11it/s]Training Epochs:  12%|█▏        | 24/200 [00:02<00:10, 17.58it/s]Training Epochs:  15%|█▌        | 30/200 [00:02<00:07, 23.34it/s]Training Epochs:  18%|█▊        | 36/200 [00:03<00:05, 29.13it/s]Training Epochs:  21%|██        | 42/200 [00:03<00:04, 34.54it/s]Training Epochs:  24%|██▍       | 48/200 [00:03<00:03, 39.26it/s]Training Epochs:  27%|██▋       | 54/200 [00:03<00:03, 43.25it/s]Training Epochs:  30%|███       | 60/200 [00:03<00:03, 46.40it/s]Training Epochs:  33%|███▎      | 66/200 [00:03<00:02, 48.94it/s]Training Epochs:  36%|███▌      | 72/200 [00:03<00:02, 50.87it/s]Training Epochs:  40%|███▉      | 79/200 [00:03<00:02, 53.40it/s]Training Epochs:  43%|████▎     | 86/200 [00:03<00:02, 56.16it/s]Training Epochs:  46%|████▋     | 93/200 [00:04<00:01, 59.68it/s]Training Epochs:  48%|████▊     | 96/200 [00:04<00:04, 23.37it/s]
-Epoch 010 | Train Loss: 0.6178 | Val Loss: 0.9760
-Epoch 020 | Train Loss: 0.5529 | Val Loss: 0.9144
-Epoch 030 | Train Loss: 0.5190 | Val Loss: 0.8094
-Epoch 040 | Train Loss: 0.4961 | Val Loss: 0.6906
-Epoch 050 | Train Loss: 0.4775 | Val Loss: 0.6028
-Epoch 060 | Train Loss: 0.4614 | Val Loss: 0.5657
-Epoch 070 | Train Loss: 0.4466 | Val Loss: 0.5568
-Epoch 080 | Train Loss: 0.4341 | Val Loss: 0.5555
-Epoch 090 | Train Loss: 0.4237 | Val Loss: 0.5555
-⏹️ Early stopping at epoch 97
-
-📊 Evaluation Metrics (Star Rating Prediction)
-RMSE: 0.6046
-MAE:  0.4708
-R²:   0.4551
-💾 Saved MLP model to mlp_final_stars_zscore.pt
