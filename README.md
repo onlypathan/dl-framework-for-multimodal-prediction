@@ -31,6 +31,16 @@ The model is trained and evaluated on the **Yelp Open Dataset (2024)** and achie
   </tr>
 </table>
 
+<p align="center">
+  <img src="images/pie_chart.png" height="320" />
+  <img src="images/final_model_compare.png" height="320" />
+</p>
+
+<p align="center">
+  <img src="images/pie_chart.png" width="48%" />
+  <img src="images/final_model_compare.png" width="48%" />
+</p>
+
 
 ---
 
