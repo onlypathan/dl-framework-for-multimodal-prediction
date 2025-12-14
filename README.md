@@ -126,14 +126,14 @@ Average modality contribution:
 
 ## Repository Structure
 
+
+- `data/` – Normalized and scaled datasets stored in a SQLite database (excluded due to GitHub size limits; access can be provided upon request)
+- `images/` – Figures and visual results 
 - `src/` – Model architecture, modality encoders, gated fusion logic, and training scripts  
   - `raw_image/` – Raw restaurant images from the Yelp Open Dataset (2024), used for CNN-based feature extraction 
-- `data/` – Normalized and scaled datasets stored in a SQLite database (excluded due to GitHub size limits; access can be provided upon request)
-  - `experiments/` – local database used for experiment   
-- `experiments/` – Training runs, ablation studies, and model evaluation artifacts  
 - `Final_Project_Report_By_Rizwan_Ahasan_Pathan.pdf` – Full technical report (Pages 15)  
-- `requirements.txt` – Python dependencies required to run the project  
 - `README.md` – Project documentation and usage overview  
+- `requirements.txt` – Python dependencies required to run the project  
 
 > **Note:** Due to GitHub size limits, the SQLite database is not included in this repository.
 > See `data/README.md` for details on reproducing or requesting the dataset.
