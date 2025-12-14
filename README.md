@@ -16,11 +16,20 @@ Unlike traditional approaches that rely on a single signal (e.g., ratings or rev
 The model is trained and evaluated on the **Yelp Open Dataset (2024)** and achieves **state-of-the-art regression performance**, demonstrating how multimodal fusion and spatial context significantly enhance real-world prediction accuracy.
 
 ![Model Architecture](images/architec.png)
-
 <p align="center">
-  <img src="images/pie_chart.png" width="45%" />
-  <img src="images/final_model_compare.png" width="45%" />
+  <img src="images/architec.png" width="80%" />
 </p>
+
+<table align="center">
+  <tr>
+    <td align="center" valign="middle">
+      <img src="images/pie_chart.png" width="420"/>
+    </td>
+    <td align="center" valign="middle">
+      <img src="images/final_model_compare.png" width="420"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
