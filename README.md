@@ -17,13 +17,13 @@ The model is trained and evaluated on the **Yelp Open Dataset (2024)** and achie
 
 
 <p align="center">
-  <img src="images/architec.png" width="80%" />
+  <img src="images/gated_multimodal_fusion_architecture.png" width="80%" />
 </p>
 
 
 <p align="center">
-  <img src="images/pie_chart.png" width="48%" />
-  <img src="images/final_model_compare.png" width="48%" />
+  <img src="images/modality_contribution_percentages_in_gated_fusion_model.png" width="48%" />
+  <img src="images/compare_single_modality_vs_multimodal_fusion.png" width="48%" />
 </p>
 
 
