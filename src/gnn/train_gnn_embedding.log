@@ -1,0 +1,27 @@
+==========================================
+SLURM_JOB_ID = 5128349
+SLURM_JOB_NODELIST = a04-06
+TMPDIR = /tmp/SLURM_5128349
+==========================================
+/home1/rpathan/myenv/lib/python3.11/site-packages/torch_geometric/__init__.py:4: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /lib64/libm.so.6: version `GLIBC_2.29' not found (required by /home1/rpathan/myenv/lib/python3.11/site-packages/libpyg.so)
+  import torch_geometric.typing
+/home1/rpathan/myenv/lib/python3.11/site-packages/torch_geometric/__init__.py:4: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /lib64/libm.so.6: version `GLIBC_2.29' not found (required by /home1/rpathan/myenv/lib/python3.11/site-packages/libpyg.so)
+  import torch_geometric.typing
+Loaded rows: (36680, 8)
+ZIP feature shape (before scaling): (1698, 7)
+ZIP feature shape (after scaling): (1698, 7)
+Graph edges (edge_index shape): torch.Size([2, 314780])
+Node feature tensor shape: torch.Size([1698, 7])
+Epoch 20/200 — Smooth: 0.000906, Recon: 0.597950, Total: 0.060701
+Epoch 40/200 — Smooth: 0.000638, Recon: 0.580909, Total: 0.058729
+Epoch 60/200 — Smooth: 0.000594, Recon: 0.576377, Total: 0.058232
+Epoch 80/200 — Smooth: 0.000564, Recon: 0.573997, Total: 0.057963
+Epoch 100/200 — Smooth: 0.000535, Recon: 0.572217, Total: 0.057756
+Epoch 120/200 — Smooth: 0.000507, Recon: 0.570777, Total: 0.057585
+Epoch 140/200 — Smooth: 0.000481, Recon: 0.569574, Total: 0.057438
+Epoch 160/200 — Smooth: 0.000456, Recon: 0.569366, Total: 0.057392
+Epoch 180/200 — Smooth: 0.000434, Recon: 0.568006, Total: 0.057235
+Epoch 200/200 — Smooth: 0.000421, Recon: 0.567089, Total: 0.057130
+Training complete!
+✅ Saved ZIP-GNN embeddings → zip_gnn_embeddings.csv
+Shape: (1698, 33)
