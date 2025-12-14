@@ -20,16 +20,17 @@ The model is trained and evaluated on the **Yelp Open Dataset (2024)** and achie
   <img src="images/architec.png" width="80%" />
 </p>
 
-<table align="center" border="0">
-  <tr>
-    <td align="center" valign="middle">
+<table align="center" cellspacing="0" cellpadding="0" style="border:none;">
+  <tr style="border:none;">
+    <td align="center" valign="middle" style="border:none;">
       <img src="images/pie_chart.png" width="420"/>
     </td>
-    <td align="center" valign="middle">
+    <td align="center" valign="middle" style="border:none;">
       <img src="images/final_model_compare.png" width="420"/>
     </td>
   </tr>
 </table>
+
 
 ---
 
