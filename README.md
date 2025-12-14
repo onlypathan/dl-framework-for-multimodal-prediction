@@ -1,4 +1,4 @@
-# Gated Multimodal Deep Learning Fusion for Restaurant Rating Prediction
+# Gated Multimodal Deep Learning for Restaurant Rating Prediction
 
 **Author:** Rizwan Ahasan Pathan  
 **Affiliation:** M.S. in Applied Data Science, University of Southern California (USC)  
@@ -14,6 +14,13 @@ This project implements a **gated multimodal deep learning framework** to predic
 Unlike traditional approaches that rely on a single signal (e.g., ratings or review text), the model integrates **four complementary modalities** using domain-specific encoders and a **learnable gated fusion mechanism**. The system dynamically weights each modality based on its informativeness, improving robustness to noisy or missing data.
 
 The model is trained and evaluated on the **Yelp Open Dataset (2024)** and achieves **state-of-the-art regression performance**, demonstrating how multimodal fusion and spatial context significantly enhance real-world prediction accuracy.
+
+![Model Architecture](images/architec.png)
+
+<p align="center">
+  <img src="images/pie_chart.png" width="45%" />
+  <img src="images/final_model_compare.png" width="45%" />
+</p>
 
 ---
 
