@@ -197,7 +197,7 @@ to reproduce the corresponding embeddings or prediction models.
 
 ## References
 
-- [Yelp Open Dataset (2024)](https://www.yelp.com/dataset)
+- [Yelp Open Dataset](https://www.yelp.com/dataset)
 
 - [Liu, Z. (2020). *Yelp Review Rating Prediction: Machine Learning and Deep Learning Models*](https://arxiv.org/abs/2012.06690)
 
